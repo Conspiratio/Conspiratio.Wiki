@@ -55,23 +55,39 @@ def pruefe_eigenes_stylesheet_eingebunden() -> None:
 
 @pruefung
 def pruefe_keine_externen_schrift_oder_stilverweise() -> None:
-    """Schriften liefern wir selbst aus - keine Google Fonts, keine fremden Stylesheets."""
+    """Schriften liefern wir selbst aus - keine Google Fonts, keine fremden Stylesheets.
+
+    Geprueft wird nur, wo ein externer Verweis tatsaechlich wirksam wird: in
+    <link>- und <script>-Marken sowie in @import-Regeln. Eine blosse Erwaehnung
+    der Domaene im Fliesstext (etwa in einer Erklaerung, was wir NICHT nutzen)
+    ist kein Verstoss.
+    """
     verboten = ("fonts.googleapis.com", "fonts.gstatic.com", "cdn.jsdelivr.net", "unpkg.com")
+    wirkstellen = re.compile(
+        r"<link\b[^>]*>|<script\b[^>]*>|@import\s+[^;]+;",
+        re.IGNORECASE,
+    )
     for seite in seiten():
         inhalt = lies(seite)
-        for muster in verboten:
-            pruefe(
-                muster not in inhalt,
-                f"{seite.relative_to(AUSGABE)}: verweist auf {muster}",
-            )
+        for treffer in wirkstellen.finditer(inhalt):
+            marke = treffer.group(0)
+            for muster in verboten:
+                pruefe(
+                    muster not in marke,
+                    f"{seite.relative_to(AUSGABE)}: verweist auf {muster}",
+                )
 
 
 @pruefung
 def pruefe_kein_bild_ohne_alternativtext() -> None:
+    """Jedes Bild braucht einen beschreibenden Alternativtext. Rein dekorative
+    Bilder werden mit role="presentation" oder aria-hidden="true" ausgenommen;
+    ein leeres alt allein genuegt hier absichtlich nicht.
+    """
     for seite in seiten():
         for treffer in re.finditer(r"<img\b[^>]*>", lies(seite)):
             marke = treffer.group(0)
-            if 'role="presentation"' in marke:
+            if 'role="presentation"' in marke or 'aria-hidden="true"' in marke:
                 continue
             hat_alt = re.search(r'\balt="[^"]+"', marke) is not None
             pruefe(hat_alt, f"{seite.relative_to(AUSGABE)}: Bild ohne Alternativtext: {marke[:80]}")
