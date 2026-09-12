@@ -26,6 +26,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
+      - run: python werkzeug/pruefe_ausgabe.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
