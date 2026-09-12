@@ -111,6 +111,46 @@ def pruefe_sprache_ist_deutsch() -> None:
         )
 
 
+def _leuchtdichte(farbe: str) -> float:
+    """Relative Leuchtdichte nach WCAG 2.1 fuer #rrggbb."""
+    werte = []
+    for teil in (farbe[1:3], farbe[3:5], farbe[5:7]):
+        anteil = int(teil, 16) / 255
+        werte.append(anteil / 12.92 if anteil <= 0.03928 else ((anteil + 0.055) / 1.055) ** 2.4)
+    return 0.2126 * werte[0] + 0.7152 * werte[1] + 0.0722 * werte[2]
+
+
+def _kontrast(vorne: str, hinten: str) -> float:
+    a, b = _leuchtdichte(vorne), _leuchtdichte(hinten)
+    hell, dunkel = max(a, b), min(a, b)
+    return (hell + 0.05) / (dunkel + 0.05)
+
+
+@pruefung
+def pruefe_kontrast_beider_themen() -> None:
+    """Die Farben werden aus dem CSS gelesen, nicht hier dupliziert."""
+    css = lies(WURZEL / "docs" / "stylesheets" / "conspiratio.css")
+    for thema, grund_name, schrift_name, leise_name in (
+        ("hell", "--grund", "--schrift", "--schrift-leise"),
+        ("dunkel", "--grund-dunkel", "--schrift-dunkel", "--schrift-leise-dunkel"),
+    ):
+        farben = {}
+        for name in (grund_name, schrift_name, leise_name):
+            treffer = re.search(rf"{name}:\s*(#[0-9a-fA-F]{{6}})", css)
+            pruefe(treffer is not None, f"Thema {thema}: Farbe {name} steht nicht im CSS")
+            if treffer:
+                farben[name] = treffer.group(1)
+        if len(farben) == 3:
+            pruefe(
+                _kontrast(farben[schrift_name], farben[grund_name]) >= 4.5,
+                f"Thema {thema}: Fliesstext erreicht 4.5:1 nicht",
+            )
+            pruefe(
+                _kontrast(farben[leise_name], farben[grund_name]) >= 4.5,
+                f"Thema {thema}: leise Schrift erreicht 4.5:1 nicht",
+            )
+
+
 def main() -> int:
     if not AUSGABE.is_dir():
         print("FEHLER: site/ fehlt - erst 'mkdocs build' laufen lassen.")

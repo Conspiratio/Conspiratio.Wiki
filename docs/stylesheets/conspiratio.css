@@ -1,2 +1,59 @@
 /* Conspiratio - Handbuch zum Godot-Client.
-   Farben und Schriften folgen in der naechsten Aufgabe. */
+   Die Farben stammen unveraendert von conspiratio.net, damit der Wechsel
+   von der Website ins Handbuch keinen Bruch ergibt. */
+
+@font-face { font-family: "Grenze Gotisch"; src: url("../schriften/grenze-gotisch-400.woff2") format("woff2");
+             font-weight: 400; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("../schriften/eb-garamond-400.woff2") format("woff2");
+             font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("../schriften/eb-garamond-400-kursiv.woff2") format("woff2");
+             font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("../schriften/eb-garamond-600.woff2") format("woff2");
+             font-weight: 600; font-style: normal; font-display: swap; }
+
+:root {
+  --grund:               #f7f3e9;
+  --grund-erhoben:       #fdfbf5;
+  --schrift:             #2b2822;
+  --schrift-leise:       #5d574c;
+  --akzent:              #8a5a12;
+  --linie:               #e2dccc;
+
+  --grund-dunkel:        #1b1a18;
+  --grund-erhoben-dunkel:#252320;
+  --schrift-dunkel:      #e9e6df;
+  --schrift-leise-dunkel:#aba79f;
+  --akzent-dunkel:       #e0a84a;
+  --linie-dunkel:        #3a3733;
+
+  --schrift-zier: "Grenze Gotisch", "Palatino Linotype", serif;
+  --schrift-text: "EB Garamond", Georgia, serif;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color:        var(--grund);
+  --md-default-fg-color:        var(--schrift);
+  --md-default-fg-color--light: var(--schrift-leise);
+  --md-primary-fg-color:        var(--akzent);
+  --md-accent-fg-color:         var(--akzent);
+  --md-typeset-color:           var(--schrift);
+  --md-typeset-a-color:         var(--akzent);
+  --md-code-bg-color:           var(--grund-erhoben);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:        var(--grund-dunkel);
+  --md-default-fg-color:        var(--schrift-dunkel);
+  --md-default-fg-color--light: var(--schrift-leise-dunkel);
+  --md-primary-fg-color:        var(--akzent-dunkel);
+  --md-accent-fg-color:         var(--akzent-dunkel);
+  --md-typeset-color:           var(--schrift-dunkel);
+  --md-typeset-a-color:         var(--akzent-dunkel);
+  --md-code-bg-color:           var(--grund-erhoben-dunkel);
+}
+
+body, input, .md-typeset { font-family: var(--schrift-text); }
+.md-typeset h1, .md-typeset h2, .md-typeset h3,
+.md-header__title { font-family: var(--schrift-zier); font-weight: 400; }
+.md-typeset { line-height: 1.65; }
+.md-typeset img { border: 1px solid var(--linie); border-radius: 2px; }
