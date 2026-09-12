@@ -151,6 +151,29 @@ def pruefe_kontrast_beider_themen() -> None:
             )
 
 
+@pruefung
+def pruefe_keine_toten_internen_verweise() -> None:
+    for seite in seiten():
+        for ziel in re.findall(r'href="([^"#?]+)', lies(seite)):
+            if ziel.startswith(("http://", "https://", "mailto:", "data:", "//")):
+                continue
+            pfad = (seite.parent / ziel).resolve()
+            if pfad.is_dir():
+                pfad = pfad / "index.html"
+            pruefe(
+                pfad.exists(),
+                f"{seite.relative_to(AUSGABE)}: toter Verweis auf {ziel}",
+            )
+
+
+@pruefung
+def pruefe_keine_wiki_syntax_uebriggeblieben() -> None:
+    """Doppelte eckige Klammern sind Wiki-Verweise, die MkDocs nicht aufloest."""
+    for seite in seiten():
+        inhalt = lies(seite)
+        pruefe("[[" not in inhalt, f"{seite.relative_to(AUSGABE)}: enthaelt unaufgeloeste Wiki-Verweise")
+
+
 def main() -> int:
     if not AUSGABE.is_dir():
         print("FEHLER: site/ fehlt - erst 'mkdocs build' laufen lassen.")

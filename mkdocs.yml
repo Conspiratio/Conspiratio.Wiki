@@ -41,3 +41,32 @@ markdown_extensions:
 
 nav:
   - Handbuch: index.md
+  - 1 Hauptmenü:
+      - hauptmenue/index.md
+  - 2 Schreibstube:
+      - schreibstube/index.md
+      - Auf ein Amt bewerben: schreibstube/auf-ein-amt-bewerben.md
+      - Ämter: schreibstube/aemter.md
+      - Privilegien: schreibstube/privilegien.md
+      - Privilegienliste: schreibstube/privilegienliste.md
+      - Geldleiher und Kreditbuch: schreibstube/geldleiher-und-kreditbuch.md
+      - Gesetze: schreibstube/gesetze.md
+      - Kontrahenten: schreibstube/kontrahenten.md
+      - Titel: schreibstube/titel.md
+  - 3 Handel:
+      - handel/index.md
+      - Grafschaften und Städte: handel/grafschaften-und-staedte.md
+      - Stadtinformationen: handel/stadtinformationen.md
+      - Städte, Produktion und Wohnsitze: handel/staedte-produktion-und-wohnsitze.md
+      - Wohnsitze: handel/wohnsitze.md
+      - Produktion von Waren: handel/produktion-von-waren.md
+      - Produktionsverhältnisse: handel/produktionsverhaeltnisse.md
+      - Verkauf und Export von Waren: handel/verkauf-und-export-von-waren.md
+  - 4 Hinterzimmer:
+      - hinterzimmer/index.md
+  - 5 Kirche:
+      - kirche/index.md
+  - 6 Söldner und Räuber:
+      - soeldner-raeuber/index.md
+      - Räuberlager: soeldner-raeuber/raeuberlager.md
+      - Zollburgen: soeldner-raeuber/zollburgen.md
