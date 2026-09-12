@@ -213,6 +213,27 @@ def pruefe_keine_wiki_syntax_uebriggeblieben() -> None:
         pruefe("[[" not in inhalt, f"{seite.relative_to(AUSGABE)}: enthaelt unaufgeloeste Wiki-Verweise")
 
 
+@pruefung
+def pruefe_manifest_und_bilder_passen_zusammen() -> None:
+    """Kein Manifesteintrag ohne Bild, kein Bild ohne Manifesteintrag."""
+    import csv
+
+    manifest = WURZEL / "werkzeug" / "manifest.tsv"
+    with manifest.open(encoding="utf-8", newline="") as datei:
+        zeilen = list(csv.DictReader(datei, delimiter="\t"))
+
+    for zeile in zeilen:
+        bild = WURZEL / "docs" / "bilder" / (zeile["Zielname"] + ".webp")
+        pruefe(bild.is_file(), f"Manifest nennt {zeile['Zielname']}, das Bild fehlt")
+        quelle = WURZEL / "docs" / zeile["Seite"]
+        pruefe(quelle.is_file(), f"Manifest nennt Seite {zeile['Seite']}, die es nicht gibt")
+
+    genannt = {z["Zielname"] for z in zeilen}
+    for bild in (WURZEL / "docs" / "bilder").rglob("*.webp"):
+        name = bild.relative_to(WURZEL / "docs" / "bilder").with_suffix("").as_posix()
+        pruefe(name in genannt, f"Bild {name} steht in keinem Manifesteintrag")
+
+
 def main() -> int:
     if not AUSGABE.is_dir():
         print("FEHLER: site/ fehlt - erst 'mkdocs build' laufen lassen.")

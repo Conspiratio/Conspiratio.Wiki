@@ -14,7 +14,7 @@ Die politische Ebene, die kirchliche Ebene und die millitärische Ebene.
 
 ## **politische Ämter je Stadt**
 
-![politische Ämter je Stadt im Spiel](../bilder/schreibstube/StadtaemterPolit.png)
+![politische Ämter je Stadt im Spiel](../bilder/schreibstube/StadtaemterPolit.webp)
 
 _**Ratsherr**_
 * gewählt von:	  Baumeister, Richter und Kämmerer
@@ -43,7 +43,7 @@ _**Bürgermeister**_
 
 ## **politische Ämter je Grafschaft**
 
-![politische Ämter je Grafschaft im Spiel](../bilder/schreibstube/LandaemterPolit.png)
+![politische Ämter je Grafschaft im Spiel](../bilder/schreibstube/LandaemterPolit.webp)
 
 ### Vorraussetzungen:
 
@@ -74,7 +74,7 @@ _**Vogt**_
 
 ## **politische Ämter im Königreich**
 
-![politische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterPolit.png)
+![politische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterPolit.webp)
 
 ### Vorraussetzungen:
 
@@ -105,7 +105,7 @@ _**Regent**_
 
 ## **kirchliche Ämter in der Stadt**
 
-![kirchliche Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterKirch.png)
+![kirchliche Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterKirch.webp)
 
 _**Priester**_	
 * gewählt von:	  Domherr
@@ -119,7 +119,7 @@ _**Domherr**_
 
 ## **kirchliche Ämter in der Grafschaft**
 
-![kirchliche Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterKirch.png)
+![kirchliche Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterKirch.webp)
 
 ### Vorraussetzungen:
 
@@ -154,7 +154,7 @@ _**Bischof**_
 
 ## **kirchliche Ämter im Königreich**
 
-![kirchliche Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterKirch.png)
+![kirchliche Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterKirch.webp)
 
 ### Vorraussetzungen:
 
@@ -180,7 +180,7 @@ _**Erzbischof**_
 
 ## **millitärische Ämter in der Stadt**
 
-![millitärische Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterMil.png)
+![millitärische Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterMil.webp)
 
 _**Stadtwache**_
 * gewählt von:	  Wachkommandant, Kerkermeister
@@ -214,7 +214,7 @@ _**Stadtkommandant**_
 
 ## **millitärische Ämter in der Grafschaft**
 
-![millitärische Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterMil.png)
+![millitärische Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterMil.webp)
 
 ### Vorraussetzungen:
 
@@ -248,7 +248,7 @@ _**Hauptmann**_
 
 ## **millitärische Ämter im Königreich**
 
-![millitärische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterMil.png)
+![millitärische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterMil.webp)
 
 ### Vorraussetzungen:
 
