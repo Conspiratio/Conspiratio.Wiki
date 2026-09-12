@@ -179,9 +179,13 @@ def pruefe_keine_toten_internen_verweise() -> None:
             if ziel.startswith(("http://", "https://", "mailto:", "data:", "//")):
                 continue
             if ziel.startswith("/"):
-                if basis and ziel == basis:
+                if basis == "":
+                    # Seite liegt im Wurzelverzeichnis einer eigenen Domain (site_url ohne
+                    # Pfadanteil) - ein wurzelabsoluter Href meint dann direkt AUSGABE.
+                    ohne_basis = ziel
+                elif ziel == basis:
                     ohne_basis = "/"
-                elif basis and ziel.startswith(basis + "/"):
+                elif ziel.startswith(basis + "/"):
                     ohne_basis = ziel[len(basis):]
                 else:
                     pruefe(
