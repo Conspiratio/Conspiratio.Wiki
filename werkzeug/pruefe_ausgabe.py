@@ -14,6 +14,7 @@ from __future__ import annotations
 import pathlib
 import re
 import sys
+import urllib.parse
 
 WURZEL = pathlib.Path(__file__).resolve().parent.parent
 AUSGABE = WURZEL / "site"
@@ -151,13 +152,47 @@ def pruefe_kontrast_beider_themen() -> None:
             )
 
 
+def _basis_pfad() -> str:
+    """Der URL-Pfad-Anteil von site_url in mkdocs.yml, z.B. "/Conspiratio.Wiki".
+
+    Wird aus mkdocs.yml gelesen statt fest eingetragen, damit die Zusage nicht
+    bricht, sobald sich die Adresse aendert (etwa bei einer eigenen Domain).
+    Kein YAML-Parser noetig - site_url steht als einzelne, einfache Zeile da.
+    """
+    text = (WURZEL / "mkdocs.yml").read_text(encoding="utf-8")
+    treffer = re.search(r"^site_url:\s*(\S+)\s*$", text, re.MULTILINE)
+    if not treffer:
+        return ""
+    return urllib.parse.urlparse(treffer.group(1)).path.rstrip("/")
+
+
 @pruefung
 def pruefe_keine_toten_internen_verweise() -> None:
+    """Wurzelabsolute Hrefs (z.B. in der von MkDocs erzeugten 404.html, die aus
+    jeder Tiefe ausgeliefert wird) tragen den Basispfad aus site_url voran und
+    werden dagegen aufgeloest, nicht gegen den Dateisystemstamm. Ein
+    wurzelabsoluter Href ohne diesen Basispfad ist weiterhin ein Verstoss.
+    """
+    basis = _basis_pfad()
     for seite in seiten():
         for ziel in re.findall(r'href="([^"#?]+)', lies(seite)):
             if ziel.startswith(("http://", "https://", "mailto:", "data:", "//")):
                 continue
-            pfad = (seite.parent / ziel).resolve()
+            if ziel.startswith("/"):
+                if basis and ziel == basis:
+                    ohne_basis = "/"
+                elif basis and ziel.startswith(basis + "/"):
+                    ohne_basis = ziel[len(basis):]
+                else:
+                    pruefe(
+                        False,
+                        f"{seite.relative_to(AUSGABE)}: wurzelabsoluter Verweis {ziel} "
+                        f"beginnt nicht mit dem Basispfad {basis!r} aus site_url",
+                    )
+                    continue
+                pfad = (AUSGABE / ohne_basis.lstrip("/")).resolve()
+            else:
+                pfad = (seite.parent / ziel).resolve()
             if pfad.is_dir():
                 pfad = pfad / "index.html"
             pruefe(

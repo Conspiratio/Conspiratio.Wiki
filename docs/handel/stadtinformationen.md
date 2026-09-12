@@ -6,9 +6,9 @@ Mit einem Rechtsklick auf eine Stadt erhaltet ihr die jeweiligen, detaillierten 
 Diese enthalten:
 
 * den Reichtum der Stadt (dargestellt durch güldene Ringe)
-* die geltende Umsatzsteuer (muss auf _**XXX**_ je Runde entrichtet werden)
-* die Einwohneranzahl (beeinflusst den Verkaufspreis beim Warenexport _**--> richtig???**_ )
-* die Kriminaliät ( macht _**XXX**_)
+* die geltende Umsatzsteuer (muss auf Euren in dieser Stadt erzielten Umsatz je Runde entrichtet werden)
+* die Einwohneranzahl (beeinflusst den Verkaufspreis beim Warenexport: eine größere Stadt verträgt mehr Absatz, bevor der Preis wegen eines Lagerüberhangs sinkt)
+* die Kriminalität (bremst das Wachstum von Einwohnerzahl und Reichtum der Stadt)
 
 * die mögliche Warenproduktion der Stadt unterteilt in Haupt- und Nebenprodukte
 * die aktuell nachgefragten Produkte
