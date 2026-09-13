@@ -9,10 +9,14 @@ Er bietet Euch ein Darlehen in bestimmter Höhe an und teilt Euch mit, welchen Z
 
 Ihr könnt das angebotene Darlehen mit einem Klick auf den blauen Kristall bei "den Kredit nehmen" annehmen oder nicht annehmen.
 
+![Das Pergament Der Geldleiher mit dem angebotenen Darlehen, dem Zinssatz, der Ruecklaufzeit und den Knoepfen Annehmen und Ablehnen](../bilder/schreibstube/geldleiher.webp)
+
 ## Kreditbuch
 
 Hier findet Ihr eine Übersicht eurer aufgenommenen Kredite.
 Mit einem Klick auf "Kredit tilgen" wird das jeweilige Darlehen inklusive der geforderten Zinsen getilgt.
+
+![Das Pergament Kreditbuch mit dem Hinweis, dass derzeit keine Kredite offen sind](../bilder/schreibstube/kreditbuch.webp)
 
 ## Wenn die Schulden zu hoch werden
 

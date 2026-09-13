@@ -3,6 +3,8 @@
 Hier im Hinterzimmer laufen alle konspirativen Fäden zusammen, um Euch den Weg zu Ruhm und Reichtum zu ebnen.
 Verschafft Euch Vorteile, haltet die Kontrahenten in Schach.
 
+![Der Tisch im Hinterzimmer mit Fernrohr, Bombe, Kerze, Giftflasche und Kelch, Wuerfeln und einem versiegelten Brief](../bilder/hinterzimmer/hinterzimmer.webp)
+
 ## Spione
 
 Ein Klick auf das Fernrohr an der Wand öffnet die Karte des Königreiches. Ihr könnt nun in alle Städte, Grafschaften und in das Königreich direkt klicken und bekommt die jeweiligen Ämter und deren Amtsinhaber für die jeweilige politische, kirchliche und militärische Ebene angezeigt.

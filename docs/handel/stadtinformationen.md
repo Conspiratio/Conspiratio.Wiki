@@ -15,4 +15,6 @@ Diese enthalten:
 * die in der Stadt produzierbaren Waren
 * der Lagerbestand an Waren in der Stadt (_**in Bezug auf den Spieler oder in Bezug auf die Stadt? Wofür ist das relevant?**_)
 
+![Die Stadtinformationen von Crowbrigde mit Reichtum, Umsatzsteuer, Einwohnerzahl, Kriminalitaet, Haupt- und Nebenproduktion, Nachfrage, moeglichen Werkstaetten und Lagerbestand](../bilder/handel/stadtinformationen.webp)
+
 Ihr könnt die Städte betreten, indem ihr sie mit der linken Maustaste anklickt.

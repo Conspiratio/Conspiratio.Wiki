@@ -6,6 +6,8 @@ Hab also immer ein Auge auf eure Produktionsstätten. Plant weise und vorausscha
 Ihr gelangt zum Übersicht für Produktion und Handel indem ihr auf die Landkarte an der Wand klickt.
 Nun öffnet sich die Karte des Königreiches und ihr könnt die verschiedenen Städt und Grafschaften sehen.
 
+![Die Landkarte des Koenigreiches mit den vier Grafschaften Meadowvalley, Wattern, Granitland und Redcoast und ihren Staedten](../bilder/handel/weltkarte.webp)
+
 Rechts von den Städten sehr ihr Euer bei Spielbeginn gewähltes Wappen an den Städten, in denen ihr bereits einen Wohnsitz euer Eigen nennt.
 Nur in Städten mit Wohnsitz könnt ihr Produktionsstätten einrichten. Die Größe des Wohnsitzes spielt hierbei keine Rolle.
 

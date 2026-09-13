@@ -2,6 +2,9 @@
 
 Wenn ihr den Stadtbildschirm betreten habt, könnt ihr mit einem Klick auf _Umbauen_ in einer Liste zwischen den verschiedenen Wohnsitzen wählen. 
 Ihr seht, welche Wohnsitze gebaut werden können und wie viele Taler ihr dafür aufbringen müsst. 
+
+![Das Pergament Wohnsitz umbauen mit der Liste der Wohnsitze von der Kate bis zum Schloss samt ihrer Preise](../bilder/handel/wohnsitz-waehlen.webp)
+
 Ein Wohnsitz repräsentiert euren Status in der Gesellschaft und verschafft Euch Ansehen, welches ihr für die Erlangung von Titeln und Handelszertifikaten benötigt.
 Die Errichtung von Werkstätten zur Warenproduktion ist nur in Städten möglich, in denen ihr auch eine Bleibe euer Eigen nennt.
 Im Mehrspielermodus kann jeder Spieler einen Wohnsitz in jeder Stadt eröffnen.
@@ -28,6 +31,8 @@ Auch das schönste Heim benötigt Pflege. Im Lauf der Jahre wird Euer Wohnsitz v
 * kleiner Gemüsegarten
 * Sitzbank
 * Blumenbeet
+
+![Das Pergament mit den Erweiterungen fuer die Kate: kleiner Gemuesegarten, Sitzbank und Blumenbeet samt Preis](../bilder/handel/wohnsitz-erweiterung.webp)
 
 ### Hütte
 * kleines Gärtchen

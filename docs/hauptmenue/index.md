@@ -11,9 +11,13 @@ Diebesgesindel, mit und ohne Adelstitel, wird versuchen Euch mit aller Macht in 
 
 Hier im Hauptmenü trennen sich die Wege. Seid Ihr noch ohne Amt und Würden, könnt ihr Eure Dynastie gründen und euch mit elektronischen oder menschlichen Kontrahenten messen.
 
+![Das Hauptmenue mit dem Titel Conspiratio auf einem Schwert und den Knoepfen Lokales Spiel, Profile, Tutorial / Hilfe, Optionen, Credits, Bestenliste, Feedback & Fehler melden und Beenden](../bilder/hauptmenue/hauptmenue.webp)
+
 # Hotseat Spiel
 
 Hier stehen drei Möglichkeiten zur Verfügung.
+
+![Das Pergament mit den drei Optionen Spiel starten, Spiel laden und Spiel fortsetzen](../bilder/hauptmenue/spiel-starten.webp)
 
 ## Spiel starten
 
@@ -24,6 +28,8 @@ Folgende Auswahl müsst ihr hierfür treffen:
 * Todesfälle anzeigen an / aus
 * Testmodus an / aus
 
+![Das aufgeschlagene Buch Neues Spiel erstellen mit Spielname, Anzahl Spieler, Cheatmodus, Testmodus und Todesfaelle anzeigen links sowie Spielziel, Schwierigkeit und Aufgabe rechts](../bilder/hauptmenue/neues-spiel.webp)
+
 Habt Ihr eure Auswahl getroffen, benötigt Ihr nun eine Informationen, um die Startbedingungen zu definieren.
 
 * Name des als ersten Spielenden
@@ -32,6 +38,8 @@ Habt Ihr eure Auswahl getroffen, benötigt Ihr nun eine Informationen, um die St
 * Startstadt des als ersten Spielenden 
 * Rohstoff, den Ihr als erstes herstellen könnt
 * Religion ( gibt Euch Ansehen und Missgunst bei der jeweilig anderen Religion )
+
+![Das aufgeschlagene Buch zur Spielererstellung mit Spielername, Geschlecht, Religion und der Bannerauswahl links sowie Heimatstadt, Rohstoff und Profil rechts](../bilder/hauptmenue/spieler-erstellen.webp)
 
 Bestätigt nach der vollständigen Wahl mit einem Rechtsklick und gebt gegebenenfalls noch folgende Spielende ein.
 Anschließend kommt Ihr zum Startbildschirm der ersten Runde.

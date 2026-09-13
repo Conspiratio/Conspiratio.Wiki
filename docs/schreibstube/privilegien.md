@@ -67,6 +67,11 @@ _**Amtsträger beleidigen**_
 
   ![Zwei Kontrahenten stehen sich im Nebel vor einem nächtlichen Burgtor zum Duell gegenüber, der Spott des Gegners eingeblendet: "Euer Atem setzt mir härter zu als Eure Klinge!"](../bilder/schreibstube/duell.webp)
 
+_**Eigene Privilegien**_
+* Voraussetzungen: Ihr seht gerade, über eine laufende Erpressung, die Amtsprivilegien Eures Opfers ein
+* Funktion: schaltet die Liste von den Amtsprivilegien des Erpressten zurück auf Eure eigenen. Mehr zur
+  Erpressung selbst im Kapitel [Erpressen](../hinterzimmer/erpressen.md).
+
 ## Von Ämtern abhängige Privilegien
 
 ### Allgemeine, amtsabhängige Privilegien

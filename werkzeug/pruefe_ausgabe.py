@@ -213,9 +213,29 @@ def pruefe_keine_wiki_syntax_uebriggeblieben() -> None:
         pruefe("[[" not in inhalt, f"{seite.relative_to(AUSGABE)}: enthaelt unaufgeloeste Wiki-Verweise")
 
 
+def _seite_zu_html(seite: str) -> pathlib.Path:
+    """Bildet den docs/-Pfad einer Manifestzeile auf die von MkDocs gebaute Seite ab.
+
+    MkDocs nutzt Verzeichnis-URLs: aus docs/a/b.md wird site/a/b/index.html, aus
+    docs/a/index.md aber site/a/index.html (keine doppelte Verschachtelung).
+    """
+    pfad = pathlib.PurePosixPath(seite)
+    if pfad.stem == "index":
+        return AUSGABE / pfad.parent / "index.html"
+    return AUSGABE / pfad.parent / pfad.stem / "index.html"
+
+
 @pruefung
 def pruefe_manifest_und_bilder_passen_zusammen() -> None:
-    """Kein Manifesteintrag ohne Bild, kein Bild ohne Manifesteintrag."""
+    """Kein Manifesteintrag ohne Bild, kein Bild ohne Manifesteintrag, kein Bild,
+    das seine Manifest-Seite zwar existiert, aber tatsaechlich nicht zeigt.
+
+    Der dritte Teil prueft gegen die gebaute Seite unter site/, nicht gegen die
+    Markdown-Quelle - genau wie jede andere Zusage hier. Ein Bild, dessen
+    Manifestzeile auf eine Seite verweist, die es nie per ![]() einbindet, waere
+    sonst ein "Waisenbild": aufbereitet und im Manifest gefuehrt, aber fuer den
+    Leser nicht sichtbar.
+    """
     import csv
 
     manifest = WURZEL / "werkzeug" / "manifest.tsv"
@@ -227,6 +247,19 @@ def pruefe_manifest_und_bilder_passen_zusammen() -> None:
         pruefe(bild.is_file(), f"Manifest nennt {zeile['Zielname']}, das Bild fehlt")
         quelle = WURZEL / "docs" / zeile["Seite"]
         pruefe(quelle.is_file(), f"Manifest nennt Seite {zeile['Seite']}, die es nicht gibt")
+
+        seite_html = _seite_zu_html(zeile["Seite"])
+        if not seite_html.is_file():
+            pruefe(
+                False,
+                f"Seite {zeile['Seite']} wurde nicht gebaut - erwartet unter "
+                f"{seite_html.relative_to(AUSGABE)}",
+            )
+            continue
+        pruefe(
+            f"bilder/{zeile['Zielname']}.webp" in lies(seite_html),
+            f"Bild {zeile['Zielname']} ist auf der Seite {zeile['Seite']} nicht eingebunden",
+        )
 
     genannt = {z["Zielname"] for z in zeilen}
     for bild in (WURZEL / "docs" / "bilder").rglob("*.webp"):

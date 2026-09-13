@@ -54,8 +54,9 @@ ALTERNATIVTEXTE = {
         "Wattern, Granitland und Redcoast und ihren Staedten"
     ),
     "handel/stadt": (
-        "Der Stadtbildschirm von Crowbrigde mit den sechs leeren Kaestchen fuer "
-        "die Werkstaetten in der Bildschirmmitte"
+        "Der Stadtbildschirm von Crowbrigde mit den sechs Kaestchen fuer die "
+        "Werkstaetten in der Bildschirmmitte, eines davon bereits mit einer "
+        "Werkstaette bebaut"
     ),
     "handel/lagerraum-kaufen": (
         "Das Pergament Lagerraum kaufen mit dem aktuellen Lagerraum und drei "

@@ -7,6 +7,8 @@ Spart das nicht am Ende auch das lästige Gefeilsche über den Verkaufspreis? Wa
 Im Bildschirm Räuber & Söldner seht ihr auf der Landkarte des Königreiches die verschiedenen Räuberlager und Zollburgen, die ihr erwerben oder einnehmen könnt.
 Ein Linksklick auf eines zeigt euch die dazugehörigen Informationen an.
 
+![Die Landkarte des Koenigreiches mit den Symbolen der Raeuberlager und Zollburgen in den Grafschaften](../bilder/soeldner-raeuber/karte.webp)
+
 * Name
 * Besitzer 
 * Zustand in %
@@ -14,6 +16,8 @@ Ein Linksklick auf eines zeigt euch die dazugehörigen Informationen an.
 * aktueller Wert
 
 Ihr habt nun die Möglichkeit, ein entsprechendes Kaufangebot an den jeweiligen Besitzer zu unterbreiten. Doch bedenkt - die Mühe dafür könnt ihr nur einmal pro Jahr aufbringen. Wenn dann der angebotene Kaufpreis nicht den Erwartungen genügt, war alles Vergebens und ihr müsst euch bis nächstes Jahr gedulden.
+
+![Das Pergament mit den Informationen zum Raeuberlager Bandit Moor: Besitzer, Wert, Zustand, Tarnung und dem Feld fuer das Kaufangebot](../bilder/soeldner-raeuber/kaufangebot.webp)
 
 ## Einen eigenen Stützpunkt verwalten
 

@@ -10,6 +10,8 @@ Hier stehen euch nun mehrere Optionen zur Verfügung.
 * Waren verkaufen
 * Waren exportieren
 
+![Das Pergament Wohnsitz mit dem Bild des Hauses und den Optionen Umbauen, Renovieren, Erweitern und Verkaufen sowie dem Zustand in Prozent](../bilder/handel/wohnsitz-verwaltung.webp)
+
 
 
 

@@ -4,6 +4,8 @@ Um mit der Produktion von Waren zu starten, benötigt ihr zunächst entsprechend
 Achtet bei der Gründung eines Kontores darauf, dass ihr auch über ein Handelszertifikat besitzt, dass zu der in der Stadt möglichen Produktion passt.
 Im Stadtbildschirm wird dies in den sechs Kästchen in der Bildschirmmitte dargestellt. Besitzt ihr ein passendes Handelszertifikat, könnt ihr für dieses Produkt eine entsprechende Werkstätte eröffnen.
 
+![Der Stadtbildschirm von Crowbrigde mit den sechs Kaestchen fuer die Werkstaetten in der Bildschirmmitte, eines davon bereits mit einer Werkstaette bebaut](../bilder/handel/stadt.webp)
+
 Achtet darauf, dass jede Stadt die verschiedenen Waren unterschiedlich gut herstellen kann. Beachtet hierbei die unter _Stadtinformationen_ dargestellten Haupt- und Nebenproduktionen. Hauptprodukte werden besonders effektiv hergestellt.
 
 ### Werkstätten und Warenproduktion einstellen
@@ -19,6 +21,9 @@ Eine Stadt ist ein Ort voller Spitzbuben und Gesindel, daher müsst ihr eure War
 Klickt auf das Haussymbol eurer Werkstätte und dort dann auf das Symbol mit dem Handkarren und der Leiter oben links.
 Dort seht ihr, über wie viel Lagerraum ihr aktuell verfügt.
 Weiterhin werden Euch zusätzliche Lagerräume zum Kauf angeboten. Ihr seht, wie viel Quadratmeter Raum ihr bekommen könnt und wie viele Taler dafür verlangt werden.
+
+![Das Pergament Lagerraum kaufen mit dem aktuellen Lagerraum und drei kaeuflichen Erweiterungen samt Quadratmeterzahl und Preis](../bilder/handel/lagerraum-kaufen.webp)
+
 Achtet am Jahresbeginn darauf, ob der Lagerraum in einer Stadt zu gering war und beschafft dann zusätzlichen. Nicht eingelagerte Waren müssen an Bedürftige der Stadt verschenkt werden. 
 
 ## Produktionsfertigkeit

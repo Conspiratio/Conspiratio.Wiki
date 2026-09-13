@@ -1,6 +1,6 @@
 "Für Wunder muss man beten. Für Veränderungen aber arbeiten." - Thomas von Aquin
 
-
+![Die Fassade der Kirche mit Glockenturm, Rundfenster und dem steinernen Portal](../bilder/kirche/kirche.webp)
 
 ## Kirchgang
 
@@ -37,6 +37,8 @@ Wählt hierzu die passende Person aus und die Werbung wird am Ende jeder Runde s
 Ihr habt die Wahl zwischen verschiedenen Geschenken und Aktionen, um eurer Auserwählten Eure Liebe zu beweisen und der Entscheidung auf die Sprünge zu helfen. Bedenkt dies und haltet euer Geldsäckel stets prall gefüllt.
 Wurde euer werben erhört, werden schon bald die Hochzeitsglocken klingen.
 
+![Das Pergament Brautwerbung mit der Auswahl des Geschenks fuer die Umworbene: geflochtener Korb, Gemaelde oder goldbestickte Pantoffeln](../bilder/kirche/brautwerbung.webp)
+
 ## Austreten
 
 Hier könnt ihr die Entscheidung treffen, aus der Kirche auszutreten. 
@@ -48,5 +50,9 @@ Wägt die Vor- und Nachteile sorgsam.
 ## Konvertieren
 
 Neue Gedanken und weltliche Gründe können euch bewegen, die Konfession zu wechseln. Dies verschafft euch auf der einen kirchlichen Seite Ansehen, bei der anderen Ungnade.
+
+Seid Ihr konfessionslos - etwa nach einem Austritt -, fragt Euch die Kirche beim nächsten Kirchgang, welchen Glauben Ihr stattdessen annehmen wollt.
+
+![Das Pergament mit der Frage, welchen Glauben ein konfessionsloser Spieler annehmen will: evangelisch, katholisch oder keinen](../bilder/kirche/konfession-waehlen.webp)
 
 Wägt auch hier sorgsam und wählt weise.

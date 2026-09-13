@@ -5,6 +5,8 @@ Diese sind Ausdruck eurer Reputation und eures Ansehens und verhelfen Euch im Ve
 
 Die Vergabe der Titel ist abhängig von eurem Vermögen (der für den jeweiligen Titel nötigen Talerschwelle), ab Landherr zusätzlich vom Ausbaustand eures Wohnsitzes und ab Graf von mindestens einem eigenen Stützpunkt. Verliehen wird er erst, sobald ein Regent im Amt ist - und stets nur eine Stufe auf einmal: Erfüllt Ihr die Voraussetzungen mehrerer Stufen zugleich, bekommt Ihr zunächst nur die nächste über der, die Ihr bereits tragt.
 
+![Die Urkunde, mit der die Regentin dem Spieler den Titel Buerger verleiht](../bilder/schreibstube/titelverleihung.webp)
+
 Am Anfang trägt jeder Spieler nur die schlichte Anrede **Herr** bzw. **Frau** - noch keinen eigentlichen Titel. Von da an können Euch, sobald Ihr die jeweilige Schwelle erreicht, nacheinander folgende Titel verliehen werden:
 
 _**Bürger / Bürgerin**_

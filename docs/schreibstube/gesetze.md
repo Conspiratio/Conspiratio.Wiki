@@ -20,6 +20,8 @@ Die verschiedenen Gesetze sind:
 * Maximale Taler ( bei Überschreitung Strafzahlung abhängig vom vorhandenen Geldbestand am Ende der Runde )
 * Glückspiel erlaubt / verboten
 
+![Das Pergament mit den geltenden Finanzgesetzen: Kredite und Gluecksspiel erlaubt, Bestechungen verboten, maximale Anwesen und maximale Taler](../bilder/schreibstube/gesetze.webp)
+
 ## Strafgesetze
 
 * Spionage erlaubt / verboten

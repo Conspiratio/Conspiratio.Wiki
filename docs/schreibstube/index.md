@@ -11,6 +11,8 @@ Folgende Aktionen stehen Euch zur Verfügung:
 * Kontrahenten einsehen
 * Hofhaltung
 
+![Der Schreibtisch der Schreibstube mit dem Kreditbuch links, einer Geldtruhe in der Mitte, einem aufgeschlagenen leeren Buch und dem Gesetzbuch sowie einem Buch mit Kreuz rechts](../bilder/schreibstube/schreibstube.webp)
+
 ## Hofhaltung
 
 Tragt Ihr einen Adelstitel, verlangt der Stand auch einen standesgemäßen Haushalt. Wählt zwischen
