@@ -1,9 +1,9 @@
 _"Wer sein Geheimnis in fremde Hand gibt, macht sich zum Knecht des Wissenden." – Sprichwort –_
 
 Beweise sind nicht nur etwas für den Gerichtssaal. Wer genug davon gegen einen Amtsträger in der Hand
-hält, muss nicht bis zur nächsten Verhandlung warten – er kann ihn zwingen, sein Amt fortan in fremdem
-Sinne zu führen. Über die Landkarte des Königreichs, im Modus „Erpressen in …", wählt Ihr den
-Amtsträger, den Ihr in der Zange habt.
+hält, muss nicht bis zur nächsten Verhandlung warten, sondern kann ihn zwingen, sein Amt fortan in
+fremdem Sinne zu führen. Vorgesehen dafür ist ein eigener Modus der Landkarte des Königreichs,
+„Erpressen in …", in dem sich unter den Amtsträgern des gewählten Gebiets das Ziel bestimmt.
 
 ## Voraussetzungen
 
