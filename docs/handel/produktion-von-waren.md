@@ -4,7 +4,7 @@ Um mit der Produktion von Waren zu starten, benötigt ihr zunächst entsprechend
 Achtet bei der Gründung eines Kontores darauf, dass ihr auch über ein Handelszertifikat besitzt, dass zu der in der Stadt möglichen Produktion passt.
 Im Stadtbildschirm wird dies in den sechs Kästchen in der Bildschirmmitte dargestellt. Besitzt ihr ein passendes Handelszertifikat, könnt ihr für dieses Produkt eine entsprechende Werkstätte eröffnen.
 
-![Der Stadtbildschirm von Crowbrigde mit den sechs Kaestchen fuer die Werkstaetten in der Bildschirmmitte, eines davon bereits mit einer Werkstaette bebaut](../bilder/handel/stadt.webp)
+![Der Stadtbildschirm von Crowbrigde mit den Kaestchen fuer die Werkstaetten in der Bildschirmmitte, eines davon bereits mit einer Werkstaette bebaut](../bilder/handel/stadt.webp)
 
 Achtet darauf, dass jede Stadt die verschiedenen Waren unterschiedlich gut herstellen kann. Beachtet hierbei die unter _Stadtinformationen_ dargestellten Haupt- und Nebenproduktionen. Hauptprodukte werden besonders effektiv hergestellt.
 
