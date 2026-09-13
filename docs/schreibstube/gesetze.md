@@ -12,7 +12,7 @@ Habt Ihr genügend Beweise für Gesetzesverstöße beisammen, so scheut Euch nic
 Ihr findet die Gesetze in der Schreibstube im Buch vorne rechts.
 Die verschiedenen Gesetze sind:
 
-## 2.3.1. Finanzgesetze
+## Finanzgesetze
 
 * Kredite erlaubt / verboten
 * Bestechungen erlaubt / verboten
@@ -20,7 +20,7 @@ Die verschiedenen Gesetze sind:
 * Maximale Taler ( bei Überschreitung Strafzahlung abhängig vom vorhandenen Geldbestand am Ende der Runde )
 * Glückspiel erlaubt / verboten
 
-## 2.3.2. Strafgesetze
+## Strafgesetze
 
 * Spionage erlaubt / verboten
 * Sabotage erlaubt / verboten
@@ -28,7 +28,7 @@ Die verschiedenen Gesetze sind:
 * Mord erlaubt / verboten
 * Waffenhandel erlaubt / verboten
 
-## 2.3.3. Kirchengesetze
+## Kirchengesetze
 
 * Religionsfreiheit gottgefällig / lästerlich
 * Ablasswesen gottgefällig / lästerlich

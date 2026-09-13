@@ -19,6 +19,8 @@ BewerbInfosDialog	schreibstube/amt-info	schreibstube/auf-ein-amt-bewerben.md	dia
 KontrahentenDialog	schreibstube/kontrahenten	schreibstube/kontrahenten.md	dialog	ernte
 KontrahentDetailsDialog	schreibstube/kontrahent-details	schreibstube/kontrahenten.md	dialog	ernte
 PrivilegienDialog	schreibstube/privilegien	schreibstube/privilegien.md	dialog	ernte
+DuellDialog	schreibstube/duell	schreibstube/privilegien.md	voll	ernte
+GerichtDialog	schreibstube/gerichtsverhandlung	schreibstube/gerichtsverhandlung.md	voll	ernte
 TitelVerleihDialog	schreibstube/titelverleihung	schreibstube/titel.md	dialog	ernte
 StadtaemterPolit	schreibstube/StadtaemterPolit	schreibstube/aemter.md	voll	wiki
 LandaemterPolit	schreibstube/LandaemterPolit	schreibstube/aemter.md	voll	wiki

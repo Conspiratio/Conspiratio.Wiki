@@ -8,11 +8,11 @@ Bedenkt also gut, ob Ihr Euch für ein neues Amt bewerbt.
 Ämter sind nicht vererbbar. Eure Nachfahren werden, wie Ihr einst, den langen Weg von unten nach oben auf der Karriereleiter antreten müssen.
 
 Es gibt drei verschiedene Amtsebenen zur Aufrechterhaltung des Königreiches zu besetzen.
-Die politische Ebene, die kirchliche Ebene und die millitärische Ebene.
+Die politische Ebene, die kirchliche Ebene und die militärische Ebene.
 
-# 2.1.1.1 Politische Ämter
+## Politische Ämter
 
-## **politische Ämter je Stadt**
+### **politische Ämter je Stadt**
 
 ![politische Ämter je Stadt im Spiel](../bilder/schreibstube/StadtaemterPolit.webp)
 
@@ -41,11 +41,11 @@ _**Bürgermeister**_
 * wählt:            Baumeister, Richter und Kämmerer	
 * Privilegien:      Umsatzsteuer festlegen, Einkommen 1.500 T, Untergebene
 
-## **politische Ämter je Grafschaft**
+### **politische Ämter je Grafschaft**
 
 ![politische Ämter je Grafschaft im Spiel](../bilder/schreibstube/LandaemterPolit.webp)
 
-### Vorraussetzungen:
+#### Vorraussetzungen:
 
 * zwei Anwesen in der jeweiligen Grafschaft
 * Bürgermeister oder Domherr in einer Stadt der jeweiligen Grafschaft
@@ -72,11 +72,11 @@ _**Vogt**_
 * Privilegien:      Wachen, Günstige Kredite, Einkommen 8.000 T, Untergebene, Bauwerk stiften
 
 
-## **politische Ämter im Königreich**
+### **politische Ämter im Königreich**
 
 ![politische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterPolit.webp)
 
-### Vorraussetzungen:
+#### Vorraussetzungen:
 
 * Titel Freiherr/Freifrau oder höher
 * Vogt, Bischof oder Hauptmann in einer Grafschaft
@@ -101,9 +101,9 @@ _**Regent**_
 * wählt:            Justizminister, Finanzminister	
 * Privilegien: Leibgarde, Untergebene , Bauwerk stiften, Einkommen 50.000 T
 
-# 2.1.1.2 Kirchliche Ämter
+## Kirchliche Ämter
 
-## **kirchliche Ämter in der Stadt**
+### **kirchliche Ämter in der Stadt**
 
 ![kirchliche Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterKirch.webp)
 
@@ -117,11 +117,11 @@ _**Domherr**_
 * wählt:            Priester
 * Privilegien:     kein Kirchenzehnt, Untergebene, Einkommen 700 T
 
-## **kirchliche Ämter in der Grafschaft**
+### **kirchliche Ämter in der Grafschaft**
 
 ![kirchliche Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterKirch.webp)
 
-### Vorraussetzungen:
+#### Vorraussetzungen:
 
 * zwei Anwesen in der jeweiligen Grafschaft
 * Bürgermeister oder Domherr in einer Stadt der jeweiligen Grafschaft
@@ -152,11 +152,11 @@ _**Bischof**_
 * wählt:            Domherr, Kellermeister, Sakristan
 * Privilegien:     kein Kirchenzehnt, Untergebene, Wachen, Bauwerk stiften, Einkommen 4.000 T
 
-## **kirchliche Ämter im Königreich**
+### **kirchliche Ämter im Königreich**
 
 ![kirchliche Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterKirch.webp)
 
-### Vorraussetzungen:
+#### Vorraussetzungen:
 
 * Titel Freiherr/Freifrau oder höher
 * Vogt, Bischof oder Hauptmann in einer Grafschaft
@@ -176,11 +176,11 @@ _**Erzbischof**_
 * wählt:          Bischof, Inquisitor, Erzdiakon  
 * Privilegien:   Leibgarde, Kirchengesetze festlegen, kein Kirchenzehnt, Untergebene, Bauwerk stiften, Einkommen 20.000 T
   
-# 2.1.1.3 Millitärische Ämter
+## Militärische Ämter
 
-## **millitärische Ämter in der Stadt**
+### **militärische Ämter in der Stadt**
 
-![millitärische Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterMil.webp)
+![militärische Ämter in der Stadt im Spiel](../bilder/schreibstube/StadtaemterMil.webp)
 
 _**Stadtwache**_
 * gewählt von:	  Wachkommandant, Kerkermeister
@@ -212,11 +212,11 @@ _**Stadtkommandant**_
 * wählt:          Wachkommandant, Kerkermeister  
 * Privilegien:    Untergebene, Einkommen 800 T
 
-## **millitärische Ämter in der Grafschaft**
+### **militärische Ämter in der Grafschaft**
 
-![millitärische Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterMil.webp)
+![militärische Ämter in der Grafschaft im Spiel](../bilder/schreibstube/LandaemterMil.webp)
 
-### Vorraussetzungen:
+#### Vorraussetzungen:
 
 * zwei Anwesen in der jeweiligen Grafschaft
 * Bürgermeister oder Domherr in einer Stadt der jeweiligen Grafschaft
@@ -246,11 +246,11 @@ _**Hauptmann**_
 * wählt:         Stadtkommandant, Befehlshaber, Zollmeister   
 * Privilegien:   Untergebene, Wachen, Bauwerk stiften, Einkommen 3.000 T
 
-## **millitärische Ämter im Königreich**
+### **militärische Ämter im Königreich**
 
-![millitärische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterMil.webp)
+![militärische Ämter im Königreich im Spiel](../bilder/schreibstube/ReichaemterMil.webp)
 
-### Vorraussetzungen:
+#### Vorraussetzungen:
 
 * Titel Freiherr/Freifrau oder höher
 * Vogt, Bischof oder Hauptmann in einer Grafschaft

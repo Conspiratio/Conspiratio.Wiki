@@ -121,6 +121,14 @@ ALTERNATIVTEXTE = {
     "schreibstube/titelverleihung": (
         "Die Urkunde, mit der die Regentin dem Spieler den Titel Buerger verleiht"
     ),
+    "schreibstube/duell": (
+        "Zwei Kontrahenten stehen sich im Nebel vor einem naechtlichen Burgtor "
+        "zum Duell gegenueber, dazu der Spott des Gegners und der Punktestand"
+    ),
+    "schreibstube/gerichtsverhandlung": (
+        "Der Gerichtstisch mit Waage, Richterhammer und einem aufgerollten "
+        "Pergament, auf dem das Plaedoyer des Anklaegers steht"
+    ),
     "schreibstube/StadtaemterPolit": "Tafel der politischen Ämter einer Stadt mit ihren Wählern und Privilegien",
     "schreibstube/LandaemterPolit": "Tafel der politischen Ämter einer Grafschaft mit ihren Wählern und Privilegien",
     "schreibstube/ReichaemterPolit": "Tafel der politischen Ämter des Königreiches mit ihren Wählern und Privilegien",
