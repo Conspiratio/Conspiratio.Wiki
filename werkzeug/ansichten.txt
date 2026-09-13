@@ -1,0 +1,76 @@
+# Diese Datei wird erzeugt aus den oeffentlichen Dialogfeldern von Main.cs
+# (Conspiratio.Godot-Repo, dort assets/scripts/Main.cs).
+# Neu erzeugen: python werkzeug/ansichten_erzeugen.py <Pfad-zu-Main.cs>
+#
+# Ausnahmen von Hand eintragen als "# Name - Begruendung" (komplette
+# Kommentarzeile) - sie werden beim erneuten Lauf am Namen wiedererkannt
+# und uebernommen, solange das Feld noch existiert.
+
+LocalGameDialog
+NewLocalGameMenu
+NewPlayerMenu
+# Kontor - Heimatstadt-Bildschirm ausfuehrlich beschrieben in client/steuerung.md ("Im Kontor - dem Bildschirm Eurer Heimatstadt..."), optionen-und-ton.md und speichern-und-laden.md; die einzelnen Bereiche (Handel, Schreibstube, Kirche, Hinterzimmer) haben eigene Manifest-Eintraege mit Bild.
+# AbrechnungDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/index.md, Abschnitt "Die Jahresabrechnung".
+# FaktorDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/privilegien.md, Eintrag "Faktor anstellen".
+Stadt
+LoadGameDialog
+SaveGameDialog
+Schreibstube
+KreditbuchDialog
+KreditDialog
+GesetzeDialog
+# HofhaltungDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/index.md, Abschnitt "Hofhaltung".
+Weltkarte
+HausVerwaltungDialog
+HausWaehlenDialog
+HausErweiterungenDialog
+BewerbDialog
+BewerbInfosDialog
+# WahlDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/aemter.md, Abschnitt "Die Wahl am Jahresende".
+Kirche
+TestamentDialog
+BrautwerbungDialog
+# GeburtDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/kirche/testament-und-erbfolge.md, Abschnitt "Nachwuchs".
+# Kirchgang - Ablass, Beichte und Waisenkind-Adoption beschrieben in docs/kirche/index.md unter "## Kirchgang".
+KonfessionslosDialog
+PrivilegienDialog
+# FestGebenDialog - Fest-geben-Privileg beschrieben in docs/schreibstube/privilegien.md ("Fest geben") und privilegienliste.md Nr. 33.
+# BauwerkStiftenDialog - Bauwerk-stiften-Privileg beschrieben in docs/schreibstube/privilegien.md und privilegienliste.md Nr. 10.
+# ProzentwertFestlegenDialog - Umsatzsteuer- und Zollsatz-Festlegung beschrieben in docs/schreibstube/privilegien.md ("Umsatzsteuer festlegen"); Stuetzpunkt-Ausbauten ueber denselben Dialog beschrieben in docs/soeldner-raeuber/index.md ("Prozentwert-Dialog").
+# UntergebeneDialog - beschrieben in docs/schreibstube/privilegien.md ("Untergebene") und privilegienliste.md Nr. 6.
+# RohstoffpreiseDialog - beschrieben in docs/schreibstube/privilegienliste.md Nr. 11-13 (Haendler/Kaufmann/Merchant).
+KontrahentenDialog
+# AemterEbeneDialog - die Amtsinhaber-Ansicht je Ebene ist in docs/hinterzimmer/index.md unter "## Spione" beschrieben (Klick auf Amtsinhaber je politischer/kirchlicher/militaerischer Ebene).
+Hinterzimmer
+# BeziehungenPflegenDialog - Kartenspielen und Bestechen als Wege der Beziehungspflege beschrieben in docs/hinterzimmer/index.md unter "## Beziehungen".
+SoeldnerRaeuberKarte
+StuetzpunktKaufenDialog
+StuetzpunktVerwalten
+# KartenspielDialog - beschrieben in docs/hinterzimmer/index.md unter "### Kartenspiel".
+GerichtDialog
+TitelVerleihDialog
+OptionenDialog
+CreditsDialog
+# HandelszertifikatDialog - Handelszertifikate beschrieben in mehreren Kapiteln (docs/handel/produktion-von-waren.md, docs/handel/wohnsitze.md, docs/schreibstube/privilegien.md, privilegienliste.md Nr. 4); die Verleihungs-Urkunde selbst ist reine Inszenierung ohne eigenen Erklaerwert.
+LagerraumKaufenDialog
+StatistikDialog
+# TippsDialog - die Option "Tipps anzeigen" ist in docs/client/optionen-und-ton.md beschrieben; der Dialog selbst zeigt nur wechselnde Spieltipps ohne eigenen Erklaerwert.
+StadtInformationenDialog
+# NaechsterSpielerDialog - reine Zugbeginn-Ankuendigung (Name und Amt des naechsten Spielers), kein eigener Erklaerwert - der Spielablauf ist in client/steuerung.md beschrieben.
+# SchuldturmDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/geldleiher-und-kreditbuch.md, Abschnitt "Wenn die Schulden zu hoch werden".
+# SchuldenProzessDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/geldleiher-und-kreditbuch.md, Abschnitt "Wenn die Schulden zu hoch werden".
+# AmtsenthebungDialog - war undokumentiert (Aufgabe 9), ergaenzt in docs/schreibstube/privilegien.md, Absatz zu "Untergebene".
+# HochzeitDialog - die Werbung und ihr Ausgang sind in docs/kirche/index.md unter "## Hochzeitsglocken" beschrieben.
+# RundenNachrichtenDialog - generischer Vollbild-Nachrichtenschirm fuer wechselnde Rundenende- und Kampfereignisse; zeigt nur den von der jeweiligen Spielmechanik gelieferten Text und hat keinen eigenen, vom Ereignis unabhaengigen Erklaerwert.
+# JahresbuchDialog - reiner Rundenbeginn-Rueckblick auf Produktion und Export ohne eigene Spielmechanik; die zugrunde liegenden Werte sind in docs/handel/produktion-von-waren.md und docs/handel/verkauf-und-export-von-waren.md erklaert.
+# IngameMenuDialog - Inhalt (Weiterspielen, Speichern, Laden, Optionen, Spieler entfernen, Feedback, Hauptmenue) beschrieben in docs/client/steuerung.md.
+# CheatDialog - Cheatfenster beschrieben in docs/client/steuerung.md unter "## Das Cheatfenster" (Taste U bei aktiviertem Cheatmodus); docs/hauptmenue/auftraege-und-bestenliste.md nennt den Ausschluss von der Bestenliste.
+ProfilDialog
+KontrahentDetailsDialog
+# AhnentafelDialog - ausfuehrlich beschrieben in docs/schreibstube/privilegien.md ("Ahnentafel einsehen").
+SpielerTodDialog
+# KindestodDialog - beschrieben in docs/kirche/grabinschrift.md unter "## Der Tod eines Kindes".
+DiagnoseDialog
+# AuftragSiegDialog - der Siegesbildschirm ist in docs/hauptmenue/auftraege-und-bestenliste.md beschrieben ("Erfuellt Ihr Euren Auftrag, erscheint sofort ein Siegesbildschirm...").
+BestenlisteDialog
+DuellDialog

@@ -7,6 +7,13 @@ Bedenkt also gut, ob Ihr Euch für ein neues Amt bewerbt.
 
 Ämter sind nicht vererbbar. Eure Nachfahren werden, wie Ihr einst, den langen Weg von unten nach oben auf der Karriereleiter antreten müssen.
 
+## Die Wahl am Jahresende
+
+Wird ein Amt frei, findet zum Jahreswechsel die Wahl statt: Alle Bewerber werden aufgelistet, und wer
+das Amt besetzen darf, stimmt für seinen Favoriten - seid Ihr selbst wahlberechtigt, klickt Ihr Euren
+Kandidaten an, KI-Wähler stimmen nach ihrer Sympathie zum jeweiligen Bewerber ab (siehe
+[Hinterzimmer](../hinterzimmer/index.md)). Bei Stimmengleichheit entscheidet das Los.
+
 Es gibt drei verschiedene Amtsebenen zur Aufrechterhaltung des Königreiches zu besetzen.
 Die politische Ebene, die kirchliche Ebene und die militärische Ebene.
 

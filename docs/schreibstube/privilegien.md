@@ -41,6 +41,12 @@ _**Mätresse nehmen**_
   ehelichen Nachwuchs aber seltener und birgt Jahr für Jahr ein Skandalrisiko von 1 zu 5, das 6 Punkte
   Ansehen kostet.
 
+_**Faktor anstellen**_
+* Voraussetzungen: genug Taler für den ersten Jahreslohn
+* Funktion: Ein Faktor vergleicht Euch die Märkte aller Städte für eine Ware nebeneinander und warnt,
+  wo Ihr sie überfüllt. Sein Lohn - fällig mit der Jahresabrechnung - wächst mit der Zahl Eurer
+  Standorte; kündigen könnt Ihr ihm jederzeit.
+
 _**Fechtunterricht nehmen**_
 * Voraussetzungen: genug Taler für die nächste Stunde
 * Funktion: hebt gegen einen mit jeder Stunde steigenden Preis (die erste kostet 1.000 Taler, jede
@@ -71,7 +77,9 @@ _**Amt niederlegen**_
 
 _**Untergebene**_
 * Voraussetzungen: Ein Amt, welches andere Amtsträger wählt
-* Funktion: Der Spieler kann eine Amtsenthebung für einen seiner Untergebenen beantragen.
+* Funktion: Der Spieler kann eine Amtsenthebung für einen seiner Untergebenen beantragen. Über den
+  Antrag stimmen die übrigen Wähler desselben Amtes einzeln ab, Stimme für Stimme per Rechtsklick
+  aufgedeckt; setzt sich die Absetzung durch, wird das Amt frei und in der nächsten Wahl neu besetzt.
 
 _**Bauwerk stiften**_
 * Voraussetzungen: Ein grafschaftliches Amt oder höher

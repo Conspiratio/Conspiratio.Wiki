@@ -3,6 +3,12 @@ _"Wer ohne Testament stirbt, überlässt sein Erbe dem Zufall." – Sprichwort �
 Eine Dynastie stirbt nicht nur durch das Schwert oder das Fieber – sie stirbt auch, wenn niemand
 bestimmt hat, wer sie fortführen soll. Das Privileg „Testament machen" legt genau das für Euch fest.
 
+## Nachwuchs
+
+Ist Euer Charakter verheiratet, kann zu Zugbeginn ein Kind zur Welt kommen. Die Geburt wird verkündet -
+Sohn oder Tochter - und Ihr bestimmt sofort den Namen, unter dem das Kind fortan in Eurer Familie
+geführt wird.
+
 ## Wer erben kann
 
 Das Privileg steht Euch offen, sobald Ihr verheiratet seid oder mindestens ein lebendes Kind habt. Im

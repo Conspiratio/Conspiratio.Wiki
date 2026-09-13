@@ -234,6 +234,28 @@ def pruefe_manifest_und_bilder_passen_zusammen() -> None:
         pruefe(name in genannt, f"Bild {name} steht in keinem Manifesteintrag")
 
 
+@pruefung
+def pruefe_keine_undokumentierte_ansicht() -> None:
+    """Ein Dialog, den es im Client gibt und im Handbuch nicht, ist fehlende Doku.
+
+    ansichten.txt wird aus den oeffentlichen Dialogfeldern von Main.cs erzeugt
+    (werkzeug/ansichten_erzeugen.py) und im Handbuch-Repo mitgefuehrt, weil das
+    Godot-Repo in CI nicht ausgecheckt ist. Eine Zeile ohne "#" muss im Manifest
+    stehen; eine auskommentierte Zeile ("# Name - Begruendung") gilt als
+    begruendet ausgenommen und wird uebersprungen.
+    """
+    import csv
+
+    liste = WURZEL / "werkzeug" / "ansichten.txt"
+    alle = {z.strip() for z in lies(liste).splitlines() if z.strip() and not z.startswith("#")}
+
+    with (WURZEL / "werkzeug" / "manifest.tsv").open(encoding="utf-8", newline="") as datei:
+        dokumentiert = {z["Ansicht"] for z in csv.DictReader(datei, delimiter="\t")}
+
+    for ansicht in sorted(alle - dokumentiert):
+        pruefe(False, f"Ansicht {ansicht} kommt im Handbuch nicht vor")
+
+
 def main() -> int:
     if not AUSGABE.is_dir():
         print("FEHLER: site/ fehlt - erst 'mkdocs build' laufen lassen.")
