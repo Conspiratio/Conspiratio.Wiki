@@ -18,7 +18,7 @@ trägt 1 bis 4 Punkte bei. Wie viele Punkte nötig sind, richtet sich nach der A
 
 ## Erfolgsaussicht
 
-Vor der Tat seht Ihr Beweislage und Erfolgsaussicht. Sie beginnt bei 75 % und steigt um 4 Prozentpunkte
+Vor der Tat werden Beweislage und Erfolgsaussicht angezeigt. Sie beginnt bei 75 % und steigt um 4 Prozentpunkte
 für jeden Beweispunkt über dem Mindestmaß. Steht das Ziel im Rang über Euch, sinkt sie um 15 Punkte je
 Rangstufe Unterschied; steht es unter Euch, steigt sie um 3 Punkte je Rangstufe. Teilt Ihr obendrein den
 Glauben Eures Ziels, sinkt die Chance um weitere 5 Punkte – unter Glaubensbrüdern schickt sich so etwas
