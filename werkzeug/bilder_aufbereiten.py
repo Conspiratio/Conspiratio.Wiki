@@ -151,6 +151,44 @@ ALTERNATIVTEXTE = {
         "Das Pergament mit den Informationen zum Raeuberlager Bandit Moor: "
         "Besitzer, Wert, Zustand, Tarnung und dem Feld fuer das Kaufangebot"
     ),
+    "client/optionen": (
+        "Das Pergament Einstellungen mit den Schaltern Musik ausschalten, Tipps "
+        "anzeigen, Statistik anzeigen, Todesfaelle anzeigen, Stuetzpunkt- und "
+        "Militaerereignisse der KI anzeigen, Duelle selbst austragen und "
+        "Vollbildmodus, drei Lautstaerkereglern und dem Regler fuer die "
+        "Aggressivitaet der KI-Spieler"
+    ),
+    "client/speichern": (
+        "Das Pergament Unter welchem Namen speichern mit der Liste vorhandener "
+        "Spielstaende und dem Eingabefeld fuer den Namen"
+    ),
+    "client/laden": (
+        "Das Pergament Welcher Spielstand soll geladen werden mit der "
+        "Spielstandliste und den Knoepfen Laden und Loeschen"
+    ),
+    "client/fehler-melden": (
+        "Das Pergament Feedback und Fehler melden mit dem Beschreibungsfeld, "
+        "dem Schalter Aktuellen Spielstand anhaengen und den Knoepfen Bericht "
+        "erstellen und E-Mail vorbereiten, Log-Ordner oeffnen sowie Spielstand- "
+        "und Profil-Ordner oeffnen"
+    ),
+    "hauptmenue/credits": (
+        "Der Abspann mit den Mitwirkenden zu Programm, Grafiken, Wiki, Musik, "
+        "Sounds und Vektor-Icons vor einem leuchtenden Pentagramm"
+    ),
+    "hauptmenue/profile": (
+        "Das Pergament Profile verwalten mit der Liste der angelegten Profile, "
+        "dem Eingabefeld fuer den Profilnamen und den Knoepfen Neu anlegen, "
+        "Umbenennen, Loeschen, Aktiv setzen und Statistik anzeigen"
+    ),
+    "hauptmenue/bestenliste": (
+        "Das Pergament Bestenliste mit dem Auswahlfeld fuer den Auftrag und der "
+        "nach Spieljahren sortierten Liste der Bestzeiten"
+    ),
+    "hauptmenue/statistik": (
+        "Das Pergament Statistik mit den Kennzahlen eines Spielers in zwei "
+        "Spalten von Spionagen bis Taler"
+    ),
 }
 
 

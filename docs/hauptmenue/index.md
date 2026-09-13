@@ -57,6 +57,8 @@ Hier lassen sich die üblichen Parameter wie Soundlautstärken, Tipps an / aus u
 
 Ehre, wem Ehre gebührt. Hier könnt ihr die Macher hinter diesem genialen Spiel sehen und die jeweilige Programmversion.
 
+![Der Abspann mit den Mitwirkenden zu Programm, Grafiken, Wiki, Musik, Sounds und Vektor-Icons vor einem leuchtenden Pentagramm](../bilder/hauptmenue/credits.webp)
+
 
 ### Weiterführendes
 

@@ -43,6 +43,8 @@ nav:
   - Handbuch: index.md
   - 1 Hauptmenü:
       - hauptmenue/index.md
+      - Spiel-Aufträge und Bestenliste: hauptmenue/auftraege-und-bestenliste.md
+      - Profile und Statistik: hauptmenue/profile-und-statistik.md
   - 2 Schreibstube:
       - schreibstube/index.md
       - Auf ein Amt bewerben: schreibstube/auf-ein-amt-bewerben.md
@@ -70,3 +72,9 @@ nav:
       - soeldner-raeuber/index.md
       - Räuberlager: soeldner-raeuber/raeuberlager.md
       - Zollburgen: soeldner-raeuber/zollburgen.md
+  - 7 Der Client:
+      - client/index.md
+      - Steuerung: client/steuerung.md
+      - Optionen und Ton: client/optionen-und-ton.md
+      - Speichern und Laden: client/speichern-und-laden.md
+      - Fehler melden: client/fehler-melden.md

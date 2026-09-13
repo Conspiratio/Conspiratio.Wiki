@@ -35,3 +35,11 @@ KonfessionslosDialog	kirche/konfession-waehlen	kirche/index.md	dialog	ernte
 Hinterzimmer	hinterzimmer/hinterzimmer	hinterzimmer/index.md	voll	ernte
 SoeldnerRaeuberKarte	soeldner-raeuber/karte	soeldner-raeuber/index.md	voll	ernte
 StuetzpunktKaufenDialog	soeldner-raeuber/kaufangebot	soeldner-raeuber/index.md	dialog	ernte
+OptionenDialog	client/optionen	client/optionen-und-ton.md	dialog	ernte
+SaveGameDialog	client/speichern	client/speichern-und-laden.md	dialog	ernte
+LoadGameDialog	client/laden	client/speichern-und-laden.md	dialog	ernte
+DiagnoseDialog	client/fehler-melden	client/fehler-melden.md	dialog	ernte
+CreditsDialog	hauptmenue/credits	hauptmenue/index.md	voll	ernte
+ProfilDialog	hauptmenue/profile	hauptmenue/profile-und-statistik.md	dialog	ernte
+BestenlisteDialog	hauptmenue/bestenliste	hauptmenue/auftraege-und-bestenliste.md	dialog	ernte
+StatistikDialog	hauptmenue/statistik	hauptmenue/profile-und-statistik.md	dialog	ernte
