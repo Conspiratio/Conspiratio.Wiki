@@ -42,7 +42,7 @@ _**Mätresse nehmen**_
   Ansehen kostet.
 
 _**Faktor anstellen**_
-* Voraussetzungen: genug Taler für den ersten Jahreslohn
+* Voraussetzungen: keine - die Anstellung selbst kostet nichts im Voraus
 * Funktion: Ein Faktor vergleicht Euch die Märkte aller Städte für eine Ware nebeneinander und warnt,
   wo Ihr sie überfüllt. Sein Lohn - fällig mit der Jahresabrechnung - wächst mit der Zahl Eurer
   Standorte; kündigen könnt Ihr ihm jederzeit.

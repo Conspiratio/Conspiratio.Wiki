@@ -20,7 +20,7 @@ Jahresabrechnung fällig; ein Spieler ohne Titel hält keinen Hof und zahlt in j
 
 ## Die Jahresabrechnung
 
-Zu Beginn jedes Jahres legt Euch der Kontor die Jahresabrechnung vor: eine Liste aller angefallenen
+Am Ende Eures Zuges legt Euch der Kontor die Jahresabrechnung vor: eine Liste aller angefallenen
 Kosten - Arbeiter, Betriebskosten, Transportkosten, Verkaufssteuern, Informanten, Saboteure,
 Kreditzinsen, Kirchenzehnt, Zölle, Sold, Unterhalt, Kapazität, Hofhaltung und, sofern angestellt, der
 Faktor - sowie die Gesamtkosten und die Änderung Eures Ansehens durch Hofhaltung und Auslastung. Die

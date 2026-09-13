@@ -5,7 +5,7 @@ bestimmt hat, wer sie fortführen soll. Das Privileg „Testament machen" legt g
 
 ## Nachwuchs
 
-Ist Euer Charakter verheiratet, kann zu Zugbeginn ein Kind zur Welt kommen. Die Geburt wird verkündet -
+Ist Euer Charakter verheiratet, kann am Ende Eures Zuges ein Kind zur Welt kommen. Die Geburt wird verkündet -
 Sohn oder Tochter - und Ihr bestimmt sofort den Namen, unter dem das Kind fortan in Eurer Familie
 geführt wird.
 
