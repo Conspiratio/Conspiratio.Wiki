@@ -197,6 +197,20 @@ ALTERNATIVTEXTE = {
         "Das Pergament Statistik mit den Kennzahlen eines Spielers in zwei "
         "Spalten von Spionagen bis Taler"
     ),
+    "kirche/testament": (
+        "Das Pergament Mein Testament mit dem Hinweis, dass all Hab und Gut "
+        "ans Erzbistum vererbt wird, und dem Hinweis, per Klick auf den Erben "
+        "einen anderen zu bestimmen"
+    ),
+    "kirche/grabstein": (
+        "Der Grabstein von Alrik, Kaufmann von Crowbridge, gestorben A.D. "
+        "1608 an einem Fieber, im oberen Banner die Todesursache"
+    ),
+    "soeldner-raeuber/verwaltung": (
+        "Die Zollburg Zattingham mit den vier Truppensymbolen samt Anzahl, "
+        "den Ausbau-Symbolen darunter und den beiden Auftragszeilen, eine "
+        "davon mit Truppen schicken nach Ullentowers"
+    ),
 }
 
 

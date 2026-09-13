@@ -67,8 +67,12 @@ nav:
       - Verkauf und Export von Waren: handel/verkauf-und-export-von-waren.md
   - 4 Hinterzimmer:
       - hinterzimmer/index.md
+      - Erpressen: hinterzimmer/erpressen.md
+      - KI-Aggression: hinterzimmer/ki-aggression.md
   - 5 Kirche:
       - kirche/index.md
+      - Testament und Erbfolge: kirche/testament-und-erbfolge.md
+      - Grabinschrift: kirche/grabinschrift.md
   - 6 Söldner und Räuber:
       - soeldner-raeuber/index.md
       - Räuberlager: soeldner-raeuber/raeuberlager.md

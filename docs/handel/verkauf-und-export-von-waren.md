@@ -56,3 +56,34 @@ Bedenkt beim Export in andere Grafschaften, dass zusätzlich auch noch Zollgebü
 * Preis / 100 Stück: 50 T
 * Verlässlichkeit: 100 %
 * Sicherheit: 40 %
+
+## Der Sättigungsrabatt
+
+Der Preis, den eine Stadt zahlt, ist nicht fest – er sinkt, je mehr von einer Ware schon unverkauft in
+ihrem Lager liegt. Maßstab ist der Jahresbedarf der Stadt: ein Zehntel ihrer Einwohnerzahl (mindestens
+1). Für jeden vollen Jahresbedarf, der als Überhang im Lager liegt, fällt der Preis um 10 Prozentpunkte,
+höchstens jedoch um 50 %:
+
+```
+Jahresbedarf = max(1, Einwohner / 10)
+Abschlag     = min(50 %, Lagerbestand × 10 % / Jahresbedarf)
+Marktpreis   = Grundpreis × (100 % − Abschlag) / 100
+```
+
+Eine Stadt mit 2.000 Einwohnern verbraucht demnach 200 Einheiten im Jahr; liegen dort 600 auf Lager,
+sind das drei Jahresbedarfe und damit 30 % Abschlag. Zwei Dinge sind dabei zu beachten:
+
+* **Der Abschlag hängt an der Einwohnerzahl.** Eine große Stadt verkraftet mehr Absatz, bevor der Preis
+  fällt, als eine kleine – wohin Ihr verkauft, ist damit eine echte Entscheidung, nicht nur eine Frage
+  der Entfernung.
+* **Er kennt keinen Mindestpreis.** Anders als beim Grundpreis greift hier keine Preisuntergrenze – ein
+  übersättigter Markt kann unter jeden Preis fallen, den die Warentabelle sonst nennt. Einzig der
+  50-Prozent-Deckel begrenzt den Abschlag.
+
+Sichtbar wird das an zwei Stellen im Stadtbildschirm: Ein Tooltip auf der Preiszeile rechnet Euch die
+Sättigung in Worten vor (Grundpreis, Jahresverbrauch, gelagerte Menge und der daraus folgende Abschlag),
+und die goldene Preiszahl selbst verblasst zunehmend, je näher der Abschlag seinem Deckel kommt – ein
+verblasster Preis verrät die Sättigung also schon auf den ersten Blick, ohne dass Ihr dafür hovern
+müsstet. Beim Export zeigt die Zielstadt in der Verkaufszeile dieselbe verblassende Färbung als Kontur um
+die Zielstadt-Auswahl, samt Tooltip mit dem Hinweis, dass sich der Preis bis zur Abrechnung am Jahresanfang
+noch bewegen kann.

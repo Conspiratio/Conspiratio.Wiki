@@ -5,7 +5,7 @@ Verschafft Euch Vorteile, haltet die Kontrahenten in Schach.
 
 ## Spione
 
-Ein Klick auf das Fernrohr an der Wand öffnet die Karte des Königreiches. Ihr könnt nun in alle Städte, Grafschaften und in das Königreich direkt klicken und bekommt die jeweiligen Ämter und deren Amtsinhaber für die jeweilige politische, kirchliche und millitärische Ebene angezeigt.
+Ein Klick auf das Fernrohr an der Wand öffnet die Karte des Königreiches. Ihr könnt nun in alle Städte, Grafschaften und in das Königreich direkt klicken und bekommt die jeweiligen Ämter und deren Amtsinhaber für die jeweilige politische, kirchliche und militärische Ebene angezeigt.
 Mit einem Klick auf einen Amtsinhaber könnt ihr dann Euren Spionen anweisen, Beweise gegen Verstöße der drei Gesetzgebungen zu sammeln.
 Anschließend wird Euch angezeigt, wie viele Taler ihr pro Jahr in diese "Dienstleistung" investieren werdet.
 Die Höhe hängt von verschiedenen Faktoren ab und steigt im Lauf des Spieles an.

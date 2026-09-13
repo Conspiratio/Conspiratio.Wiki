@@ -45,3 +45,6 @@ CreditsDialog	hauptmenue/credits	hauptmenue/index.md	voll	ernte
 ProfilDialog	hauptmenue/profile	hauptmenue/profile-und-statistik.md	dialog	ernte
 BestenlisteDialog	hauptmenue/bestenliste	hauptmenue/auftraege-und-bestenliste.md	dialog	ernte
 StatistikDialog	hauptmenue/statistik	hauptmenue/profile-und-statistik.md	dialog	ernte
+TestamentDialog	kirche/testament	kirche/testament-und-erbfolge.md	dialog	ernte
+SpielerTodDialog	kirche/grabstein	kirche/grabinschrift.md	voll	ernte
+StuetzpunktVerwalten	soeldner-raeuber/verwaltung	soeldner-raeuber/index.md	voll	ernte
